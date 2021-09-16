@@ -87,7 +87,7 @@ get_header();
 				<button class="btn-prev"></button>	
 				<button class="btn-next"></button>			
 		</div>		
-		<!-- <ul class="slider-dots">
+		<ul class="slider-dots">
 				<li class="dot dot-active"></li>
 				<li class="dot"></li>
 				<li class="dot"></li>
@@ -99,7 +99,7 @@ get_header();
 				<li class="dot"></li>
 				<li class="dot"></li>
 				<li class="dot"></li>				
-		</ul>			 -->
+		</ul>			
 </div>	
 
 </div>
