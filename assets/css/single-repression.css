@@ -1,0 +1,138 @@
+
+
+.sp_image_block{
+    position: relative;
+}
+.content-pepression img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    max-height: 800px; 
+    position: relative;
+}
+ .sp_image_block_title{
+    position: absolute;   
+    bottom: 4rem;
+    background: #FF1B1D;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+}
+.sp_image_block_title::after {
+    content: '';
+    position: absolute;
+    right: -120px;
+    top: 0;
+    border: 60px solid transparent;
+        border-top-color: transparent;
+        border-top-style: solid;
+        border-top-width: 60px;
+        border-left-color: transparent;
+        border-left-style: solid;
+        border-left-width: 60px;
+    border-left: 60px solid #FF1B1D;
+    border-top: 60px solid #FF1B1D;
+}
+.sp_image_block_title h3 {
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: normal;
+    margin: 0;
+    color: #fff;
+}
+.sp_image_block_title h4 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 0;
+    color: #fff;
+    margin: 0;
+    margin-top: 10px;
+}
+
+.more_articles .subtitle{
+    color: #ff2122;
+}
+
+.more_articles h2 {
+    margin-bottom: 1vw;
+    font-size: 25px;
+    line-height: 1.9vw;
+    color: #ff2122;
+}
+
+.more_articles  .bold { 
+    font-size: 32px;   
+    letter-spacing: 1px;
+    line-height: 1.2em;
+}
+@media screen and (max-width: 770px){
+    .other-block .inner-box {       
+        width: 45%;
+        max-width: 48%;
+        min-width: 48%;
+        text-align: left;
+        margin-left: 1%;
+    }
+    .other-block .inner-box .text{
+        width: 100%;
+    }
+    .other-block .page-title{
+        text-align: left;
+    }
+    .other-block .read-more-slider{
+        width: 100%;
+    }
+  
+}
+
+
+@media screen and (max-width: 430px){
+    .page-title{
+        font-size: 30px;
+    }
+    .content-repression .sp_image_block_title {
+        position: relative;
+        bottom: 0;
+        height: auto;
+    }
+    .sp_image_block_title::after {
+       display: none;
+    }
+    .sp_image_block_title h3 {
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: normal;
+        margin: 0;
+        color: #fff;
+    }    
+    .other-block .inner-box {       
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
+        text-align: left;
+        margin-left: 0;
+    }
+    .read-more-slider{
+       width: 100%;
+       margin: 0;
+       margin-bottom: 20px;
+    }
+    .inner-box .text{
+        width: 100% !important;
+    }
+    .more_articles .subtitle {    
+        text-align: center;
+    }
+    
+    .size-medium {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+
+
+

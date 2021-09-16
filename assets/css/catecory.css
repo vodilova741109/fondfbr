@@ -1,0 +1,197 @@
+.page-title{
+    position: relative;
+    font-size: 42px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #000000;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+
+.zayavleniya-row .repression-box, .terror-row .repression-box   {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    width: 100%;
+    margin-bottom: 20px;
+}
+  .repression-box{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: nowrap;
+      width: 100%;
+      margin-bottom: 20px;
+  }
+  .zayavleniya-row .repression-box h2, .terror-row .repression-box h2 {
+      margin: 0;
+  }
+  .repression-box .image-repress, .repression-box .content-text{
+      width: 49%;
+ 
+  }
+
+.repression-box .image-repress img{
+    object-fit: cover;
+    width: 565px;
+    height: 500px;
+}
+
+   
+.page-title h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.site-main h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #2a2a2a;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+    margin-bottom: 3px;
+    word-break: break-word;
+}
+.repression-box h2{
+    font-size: 40px;
+    line-height: 40px;       
+    text-transform: uppercase;
+    font-weight: 800;
+    color: #2a2a2a;
+    font-family: 'Roboto Condensed', sans-serif !important;
+}
+
+.repression-box .image-repress {     
+    order: 2;
+}
+
+.repression-box .content-text {   
+    order: 1;
+}
+
+.two .image-repress {     
+        order: 1;
+        margin-right: 0;
+}
+
+.two .content-text {   
+    order: 2;
+}
+
+.terror, .zayavleniya{
+    padding: 0 10px;
+}
+
+.pisma img{
+    object-fit: contain !important;
+ }
+ 
+ .post-navigation{
+    display: none;
+}
+.entry-title{
+    font-size: 3.4rem;
+    text-align: left;
+    letter-spacing: 0;
+}
+.singular .entry-header {
+   padding: 0;
+}
+.single-container{
+   margin-top: 10px !important;
+}
+
+ @media screen and (max-width: 1662px){
+    .container {
+        max-width: 80% !important;      
+    }
+ }
+ @media screen and (max-width: 1224px){
+    .container {
+        max-width: 90% !important;      
+    }
+ }
+ @media screen and (max-width: 1056px){
+  
+ }
+ @media screen and (max-width: 770px){
+    .zayavleniya-row .repression-box, .terror-row .repression-box{
+        flex-wrap: wrap;
+    }
+    .repression-box .image-repress, .repression-box .content-text {
+        width: 100%;
+        max-width: 100%;
+    }
+  
+    .repression-box .image-repress img {
+        object-fit: cover;
+        width: 600px;        
+        margin: 0 auto;
+        margin-top: 20px;
+     
+    }
+    .repression-box .content-text, .repression-box .content-text p{
+        text-align: center;
+    }
+    .page-title{
+        text-align: center;
+    }
+    .read-more-slider{
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    
+ }
+ @media screen and (max-width: 768px){   
+    .repression-box{
+        display: block;
+    }
+    .about {
+        display: block;      
+    }
+   
+ }
+
+
+ @media screen and (max-width: 415px){   
+
+    .two .image-repress {     
+        order: 2;      
+    }
+    .two .content-text {   
+        order: 1;
+    }
+    .repression-box .image-repress img {
+        object-fit: cover;
+        width: 95%;        
+        margin: 0;
+        margin-top: 20px;     
+    }
+    .repression-box h2 {
+        font-size: 25px;
+    }
+    h1, h2, h3 {
+        margin: 0.5rem auto 3rem;
+    }
+    section{
+        padding: 0;
+    }
+ 
+ }
+
+
+
+
